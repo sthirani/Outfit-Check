@@ -18,3 +18,13 @@ We learned a lot about AWS and serverless execution, and that we should always s
 
 ## What's next for Outfit Check
 In the future, outfit check will be able to judge your outfit based on a picture of it, and will also know about special colors for holidays
+
+## How to use it
+Ways you can invoke the skill:
+- "Alexa, outfit check?"
+- "Do my colors match?"
+- "Are my colors good?"
+When asked about colors, respond in this format:
+- "White and Black"
+When asked about the season, respond in this format:
+- "It's Spring"
