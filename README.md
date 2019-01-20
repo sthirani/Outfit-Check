@@ -24,7 +24,9 @@ Ways you can invoke the skill:
 - "Alexa, outfit check?"
 - "Do my colors match?"
 - "Are my colors good?"
+
 When asked about colors, respond in this format:
 - "White and Black"
+
 When asked about the season, respond in this format:
 - "It's Spring"
