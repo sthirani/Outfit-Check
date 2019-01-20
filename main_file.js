@@ -1,6 +1,5 @@
-TODO: Upload this
+// This file is a Lambda backend for an Alexa skill that helps its user choose outfits
 
-// *** Script that evaluates colors for matches *** 
 // Lists of Permitted Colors
 var whitelist = ["beige","gray","pink","red","brown","orange","yellow","olive","green","turquoise","cyan","blue","black","purple","violet"];
 var beigelist = ["white","brown","green","black","purple"];
@@ -37,6 +36,7 @@ var colordict = {
  "purple" : purplelist,
  "violet" : violetlist,
 };
+
 // Lists of colors NOT good in each season
 var springlist = ['black', 'brown', 'purple', 'olive'];
 var summerlist = ['black', 'brown', 'olive'];
@@ -200,14 +200,13 @@ var summersuggestions= ['red and blue', 'red and white', 'blue and white'];
 var fallsuggestions = ['mustard and brown', 'purple and brown', 'green and brown', 'orange and black'];
 var wintersuggestions = ['red and brown', 'cream and gray', 'green and gray'];
 
+//Best colors for each season
 var suggestion_dict = {
    'spring' : springsuggestions,
    'summer' : summersuggestions,
    'fall' : fallsuggestions,
    'winter' : wintersuggestions,
 };
-//Best colors for each season
-
 
 //Function that “randomly” suggests an outfit for a season
 function suggest(season) {
