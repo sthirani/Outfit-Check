@@ -51,7 +51,7 @@ var seasondict = {
     'winter' : winterlist
 };
 
-// Dict converting obscure colors to normal colors, based on euclidean distance
+// Dict converting obscure colors to normal colors, based on euclidean distance, calculated by closest_color.py
 var closest_dict = {
     'alice blue' : 'white',
     'antique white' : 'beige',
