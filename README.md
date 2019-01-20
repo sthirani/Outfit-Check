@@ -11,7 +11,7 @@ We used the Amazon Alexa developer SDK, passing user input about their outfit th
 The main challenge was connecting the Alexa skillset to AWS Lambda
 
 ## Accomplishments that we're proud of
-- We are very proud that we completed our project, that it's working smoothly, and that it is in production available as an Alexa skill
+We are very proud that we completed our project, that it's working smoothly, and that it is in production available as an Alexa skill
 
 ## What we learned
 We learned a lot about AWS and serverless execution, and that we should always start by producing a functional version of the minimum viable product before attempting to develop the advanced features of an application
